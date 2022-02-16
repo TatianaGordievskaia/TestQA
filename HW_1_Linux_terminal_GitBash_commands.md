@@ -28,7 +28,7 @@ ______
 
 1. Отправить http запрос на сервер `http://162.55.220.72:5005/terminal-hw-request` = **curl** `"http://162.55.220.72:5005/terminal-hw-request"`
 1. Result {"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal: `http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}`
-2. Отправить следующий http запрос с заполнением запрашиваемых данных = **curl** `"http://162.55.220.72:5005/get_method?name=(**Tatiana**)&age=(**34**)"`
+2. Отправить следующий http запрос с заполнением запрашиваемых данных = **curl** `"http://162.55.220.72:5005/get_method?name=(`**Tatiana**`)&age=(`**34**`)"`
 3. Result = **["(Tatiana)","(34)"]**
 
 ## 2 Задание
